@@ -5,7 +5,7 @@
 ** Login   <chapui_s@epitech.eu>
 **
 ** Started on  Mon Jan 26 19:41:38 2015 chapui_s
-** Last update Tue Jan 27 04:41:04 2015 chapui_s
+** Last update Mon Feb 16 00:53:08 2015 chapui_s
 */
 
 #ifndef RBTREE_H_
@@ -35,7 +35,7 @@ typedef struct		s_rbnode
   struct s_rbnode	*left;
   struct s_rbnode	*right;
 
-}		t_rbnode;
+}			t_rbnode;
 
 #define SIZE_TREE(x) ((x) ? (x->size_from_here) : (0))
 
