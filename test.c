@@ -5,9 +5,10 @@
 ** Login   <chapui_s@epitech.eu>
 **
 ** Started on  Mon Feb 16 00:46:44 2015 chapui_s
-** Last update Mon Feb 16 00:49:50 2015 chapui_s
+** Last update Mon Feb 16 01:55:11 2015 chapui_s
 */
 
+#include <time.h>
 #include "rbtree.h"
 
 extern t_rbnode *root_rbtree;
