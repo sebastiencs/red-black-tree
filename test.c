@@ -9,13 +9,12 @@
 */
 
 #include <time.h>
+
 #include "rbtree.h"
 
 extern t_rbnode *root_rbtree;
 
-int main()
-{
-
+int main() {
   /* root_rbtree = NULL; */
   /* insert(16, 16); */
   /* insert(24, 24); */
@@ -39,7 +38,7 @@ int main()
     /* printf("\nboucle numero %d\n", i); */
     a = random() % 100;
     insert(a, a);
-//    insert(i + 'A', i + 'A');
+    //    insert(i + 'A', i + 'A');
     /* if (i % 50 == 0 && i > 0) */
     /*   remove_key(root_rbtree, random() % i); */
     /* print_ascii_tree(root_rbtree); */
@@ -67,9 +66,9 @@ int main()
   /* for (unsigned int i = 65; i < 75; ++i) */
   /*   root_rbtree = remove_key(root_rbtree, i); */
 
-//  root_rbtree = erase_tree(root_rbtree);
-//  print_ascii_tree(root_rbtree);
-//  printf("root_rbtree: %c\n", root_rbtree->key);
+  //  root_rbtree = erase_tree(root_rbtree);
+  //  print_ascii_tree(root_rbtree);
+  //  printf("root_rbtree: %c\n", root_rbtree->key);
   erase_tree(root_rbtree);
   return (0);
 }
